@@ -1,5 +1,5 @@
 # :wave: The Basics of GitHub 
-Macey was here 
+Macey was here and she added this file into VS code
 
 ## 🤓 Course overview and learning outcomes 
 
