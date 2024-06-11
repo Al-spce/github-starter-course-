@@ -110,6 +110,33 @@ In a cell below this one, use Markdown to tell us a little bit about yourself. S
 - what got you interested in neuroscience /or psychology
 - what your career plans are (or post-graduation plans, if you haven't figured that out yet!)
 
+##**Name**
+*Macey*
+
+##**Photo of me**
+![alt text](ME.jpg)
+This is **MEEEEE**
+
+##**Year**
+*2*0**2**4
+
+##**Major**
+*Neursoscience*
+
+##**Why am I enrolling**
+1. I want to learn coding 
+2. I am starting an internship that requires coding 
+3. I have only ever used R studio never python or Git
+4. Analysing data is going to be part of my future career so best to start learning now :happy face:
+
+##**What got me interested in Neuroscience**
+I used to really suffer with my mental health and that is was sparked my interest for the brain... I also really loved learning about **action potentials** at college which was the only bit of neuroscience we did at college but that was enough to get me hooked :celebration:. 
+
+From there i have developed a passion for **Neuropsychopharmacology** whereby I want to study alkaloids that are psychoactive and medicinal from different types of mushrooms :mushroom: and plants :plants: 
+
+##**What is my career goal then?**
+I want to reserach these alkaloids on a cellular level to see how they cause their efficacy. My disseration was medicinal chemistry based which has also sparked a passion for understanding the *structure-fucntion-activity-relationship* of these alkaoloids to better theraputic approaches and understandings of molecular mechanisms. I am hoping for my masters to study the effects of synthetic opioids in acting at specific the beta-arrestin or G protein pathway at the *mu opioid receptors*. 
+
 Impress us with your newfound command of the Markdown language. Use headings above your answers for each question, and maybe throw in some bold or italic text, a list, or something else.
 
 How long should your answers be? Think of it this way: we're asking because we want to get to know you a little, and so that you can demonstrate some facility with Markdown. So you need to produce enough content to meet those goals. But, we have 20 of these to read, and other things to do with our lives. So try to keep it to a length that we'll find interesting and not boring. 
