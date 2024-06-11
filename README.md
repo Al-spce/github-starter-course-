@@ -1,4 +1,5 @@
 # :wave: The Basics of GitHub 
+Macey was here 
 
 ## 🤓 Course overview and learning outcomes 
 
