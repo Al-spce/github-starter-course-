@@ -133,7 +133,7 @@ This is **MEEEEE**
 
 I used to really suffer with my mental health and that is was sparked my interest for the brain... I also really loved learning about **action potentials** at college which was the only bit of neuroscience we did at college but that was enough to get me hooked :celebration:. 
 
-From there i have developed a passion for **Neuropsychopharmacology** whereby I want to study alkaloids that are psychoactive and medicinal from different types of mushrooms :mushroom: and plants :plants: 
+From there i have developed a passion for **Neuropsychopharmacology** whereby I want to study alkaloids that are psychoactive and medicinal from different types of mushrooms :mushroom: and plants :plant: 
 
 ## **What is my career goal then?**
 
