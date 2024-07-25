@@ -159,3 +159,38 @@ print('break the string down into 3 parts:')
 print('1. <title.*?> matches the opening <TITLE > tag in html. The <title part of the pattern matches with <TITLE because re.search() is called with re.IGNORECASE, and .*?> matches any text after <TITLE up to the first instance of >.')
 print('2. .*? non-greedily matches all text after the opening <TITLE >, stopping at the first match for </title.*?>.')
 print('3. </title.*?> differs from the first pattern only in its use of the / character, so it matches the closing </title  / > tag in html.')
+#%%
+print('exercise')
+from urllib.request import urlopen
+url = "http://olympus.realpython.org/profiles/dionysus"
+page = urlopen(url)
+page
+html_bytes = page.read()
+html = html_bytes.decode("utf-8")
+print(html)
+# %%
+title_index = html.find("<title>")
+title_index
+start_index = title_index + len("<title>")
+start_index
+end_index = html.find("</title>")
+end_index
+title = html[start_index:end_index]
+title
+# %%
+url = "http://olympus.realpython.org/profiles/dionysus"
+html_page = urlopen(url)
+html_text = html_page.read().decode("utf-8")
+print('an extended soloution is to use the for loop fucntion in python to extract text for both name and fav colour')
+for string in ["Name: ", "Favorite Color:"]:
+    string_start_idx = html_text.find(string)
+    text_start_idx = string_start_idx + len(string)
+
+    next_html_tag_offset = html_text[text_start_idx:].find("<")
+    text_end_idx = text_start_idx + next_html_tag_offset
+
+    raw_text = html_text[text_start_idx : text_end_idx]
+    clean_text = raw_text.strip(" \r\n\t")
+    print(clean_text)
+# %%
+print('Use an HTML Parser for Web Scraping in Python')
