@@ -194,3 +194,16 @@ for string in ["Name: ", "Favorite Color:"]:
     print(clean_text)
 # %%
 print('Use an HTML Parser for Web Scraping in Python')
+# %%
+conda_install_anaconda:beautifulsoup4
+# %%
+# beauty_soup.py
+
+from bs4 import BeautifulSoup
+from urllib.request import urlopen
+
+url = "http://olympus.realpython.org/profiles/dionysus"
+page = urlopen(url)
+html = page.read().decode("utf-8")
+soup = BeautifulSoup(html, "html.parser")
+# %%
